@@ -13,8 +13,8 @@ small {
 .synopsis {
     background: white;
     display: block;
-    /*max-width: 21cm;
-    margin: 0 auto;*/
+    max-width: 21cm;
+    margin: 0 auto;
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
     text-align: center;
@@ -69,11 +69,12 @@ small {
    
    overflow: hidden;
    position: relative;
-   left: 40%;
+   left: 32%;
 }
 
 .names {
     float: left;
+    margin-right: 7%;
    
 }
 
