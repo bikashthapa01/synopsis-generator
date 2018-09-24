@@ -1,0 +1,131 @@
+body {
+    background: #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.synopsis p {
+    font-size: 20px;
+}
+small {
+    display: block;
+}
+
+.synopsis {
+    background: white;
+    display: block;
+    /*max-width: 21cm;
+    margin: 0 auto;*/
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 10px;
+}
+
+.university_info {
+    text-align: center;
+}
+.university_info h1 {
+
+    font-weight: 500;
+
+}
+
+.university_info img {
+    width: 15%;
+    height: 15%;
+}
+.project_info {
+    text-align: center;
+}
+
+.project_info h2 {
+    margin: 7px;
+    font-size: 25px;
+
+}
+
+
+.student_info h3 {
+    text-decoration: underline;
+}
+
+
+
+.student_info li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    text-align: justify;
+   
+    
+}
+
+
+.spacing {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.stn {
+   
+   overflow: hidden;
+   position: relative;
+   left: 40%;
+}
+
+.names {
+    float: left;
+   
+}
+
+.usn {
+    float: left;
+}
+.college_info {
+    margin-top: 1rem;
+}
+.college_info img {
+    width: 10%;
+    height: 10%;
+}
+.college_info p {
+    font-size: 18px;
+}
+
+@page {
+   size: 7in 9.25in;
+   
+}
+
+
+/*for print */
+@media print {
+
+    .synopsis {
+        box-shadow:none;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .synopsis p {
+        
+        font-weight: 400 !important;
+    }
+    .project_info p {
+        margin: 0;
+    }
+
+    .stn {
+        left: 32%;
+    }
+    .names {
+       
+        margin-right: 6%;
+    }
+
+
+    .college_info p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px !important;
+        font-weight: 400;
+    }
+
+}

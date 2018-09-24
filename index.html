@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sysnopsis Generator</title>
+</head>
+<body>
+    <h1>Create Sysnopsis for Mini Project</h1>
+    <div class="form-data">
+        <form  method="POST" id="myForm">
+            <input type="text" name="Name" placeholder="Name">
+            <button>Create</button>
+        </form>
+    </div>
+
+    <div class="preview">
+        <div id="data">
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<script type="text/javascript">
+    window.addEventListener("load",function(){
+        function getData(){
+            var formData = new FormData(form);
+
+            for(var pair of formData.entries()){
+                document.write(pair[0] + ':' + pair[1]);
+
+            }
+        }
+
+
+        var form = document.getElementById("myForm");
+        form.addEventListener("submit",function(){
+            event.preventDefault();
+            getData();
+        });
+
+    });
+</script>
