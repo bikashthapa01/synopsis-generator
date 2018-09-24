@@ -37,8 +37,9 @@ small {
 }
 
 .university_info img {
-    width: 15%;
-    height: 15%;
+    width: 17%;
+    height: 17%;
+    margin: 1rem;
 }
 .project_info {
     text-align: center;
@@ -65,17 +66,21 @@ small {
    
     
 }
+.stream  p {
+    font-size: 20px;
+    font-weight: 400;
 
-
-.spacing {
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
+
+
 .stn {
    
    overflow: hidden;
    position: relative;
    left: 32%;
+}
+.stn li {
+    font-size: 18px;
 }
 
 .names {
@@ -93,9 +98,65 @@ small {
 .college_info img {
     width: 10%;
     height: 10%;
+    margin: 0.5rem;
 }
 .college_info p {
     font-size: 18px;
+}
+
+.title p {
+    text-decoration: underline;
+}
+
+.title h1,.headline {
+    margin: 1rem;
+    font-size: 23px;
+    font-weight: 700;
+}
+.headline {
+    font-weight: 500;
+    margin: 1.5rem;
+}
+.introduction p,.obj_content p {
+    font-size: 17px;
+    
+}
+.intro_content,.obj_content,.schema_content,.front_content ,.spec_content {
+    padding: 2rem;
+    padding-top: 0;
+    text-align:left;
+}
+.headline small {
+    font-size: 13px;
+}
+
+.requirements_front {
+    overflow: hidden;
+}
+
+
+.front_content {
+    overflow: hidden;
+}
+
+.front_content li {
+    list-style: none;
+}
+
+.front_name  {
+    width: 30%;
+    float: left;
+}
+
+.front_desc {
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+
+.front_name li , .front_desc li, {
+    list-style: none;
+    margin-bottom: 1rem;
 }
 
 @page {
@@ -128,11 +189,11 @@ small {
         margin-right: 6%;
     }
 
-
-    .college_info p {
+    .college_info p , .stream p {
         font-family: 'Open Sans', sans-serif;
         font-size: 22px !important;
         font-weight: 400;
     }
+
 
 }
