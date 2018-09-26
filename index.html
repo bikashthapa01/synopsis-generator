@@ -15,16 +15,16 @@
     <div class="wrapper">
         <div class="option-menu">
         <ul id="option-menu">
-            <li class="active"><a href="#">Basic Info</a></li>
+            <li class="active"><a href="#info">Basic Info</a></li>
             <li><a href="#">Introduction</a></li>
             <li><a href="#">Objectives</a></li>
-            <li><a href="#">Database Schema</a></li>
-            <li><a href="#">Specification</a></li>
-            <li><a href="#">Requirements</a></li>
+            <li id="dbs"><a href="#">Database Schema</a></li>
+            <li id="spec"><a href="#">Specification</a></li>
+            <li id="req"><a href="#">Requirements</a></li>
         </ul>
     </div> 
-   <form class="form" id="form">
-        <div class="basic-details">
+   <form class="form" id="form" method="POST">
+        <div class="basic-details" id="info">
             <p>
                  <h3 class="headline">Insert Student Names</h3>
                 <div id="project-team">
@@ -47,8 +47,17 @@
                 <a href="#" class="btn btn-tch">&plus; Add New</a>
             </p>
         </div>
+        <div id="intro" >
+            <h3 class="headline">Project Introduction</h3>
+            <p>
+                <textarea>
+                </textarea>
+            </p>
+        </div>
 
-        <button>Submit</button>
+        <div id="obj">
+            <h3 class="headline">Project Objective </h3>
+        </div>
    </form>
     </div>
     <footer class="site-footer">

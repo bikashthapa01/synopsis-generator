@@ -24,6 +24,14 @@ $(document).ready(function(){
         $('#project-mentors').append(input);
     });
 
+    $('#intro').click(function(){
+        
+    });
+
+
+
+
+
 
 
 });
