@@ -24,8 +24,30 @@
         </ul>
     </div> 
    <form class="form" id="form">
-        <h1>Details Form</h1>
-        <input type="submit" name="submit">
+        <div class="basic-details">
+            <p>
+                 <h3 class="headline">Insert Student Names</h3>
+                <div id="project-team">
+                    <p>
+                        <input type="text" name="std_name" id="std_name" placeholder="Full Name">
+                        <input type="text" name="std_usn" id="std_usn" placeholder="USN">
+                    </p>
+                </div>
+                <a href="#" class="btn btn-std">&plus; Add New</a>
+            </p>
+
+             <p>
+                 <h3 class="headline">Insert Teacher Names</h3>
+                <div id="project-mentors">
+                    <p>
+                        <input type="text" name="tch_name" id="tch_name" placeholder="Full Name">
+                        <input type="text" name="tch_post" id="tch_post" placeholder="Desigination">
+                    </p>
+                </div>
+            </p>
+        </div>
+
+        <button>Submit</button>
    </form>
     </div>
     <footer class="site-footer">
