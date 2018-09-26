@@ -4,6 +4,7 @@
     <title>Sysnopsis Generator</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -13,8 +14,8 @@
     </header>
     <div class="wrapper">
         <div class="option-menu">
-        <ul>
-            <li id="active"><a href="#">Basic Info</a></li>
+        <ul id="option-menu">
+            <li class="active"><a href="#">Basic Info</a></li>
             <li><a href="#">Introduction</a></li>
             <li><a href="#">Objectives</a></li>
             <li><a href="#">Database Schema</a></li>
@@ -22,9 +23,15 @@
             <li><a href="#">Requirements</a></li>
         </ul>
     </div> 
-   <form class="form">
-    
+   <form class="form" id="form">
+        <h1>Details Form</h1>
+        <input type="submit" name="submit">
    </form>
     </div>
+    <footer class="site-footer">
+        <p>
+            &copy; All Right Reserverd | Synopsis Generator by Bikash 
+        </p>
+    </footer>
 </body>
 </html>
