@@ -2,7 +2,7 @@
 
 This project will provide a synopsis generation service for the student of VTU. This application contain the sample of Synopsis report that needs to be submitted for mini project. 
 
-[Check out Synopsis Mockup Design][http://bikashthapa01/synopsis-generator/synopsis.html]
+[Check out Synopsis Mockup Design](http://bikashthapa01/synopsis-generator/synopsis.html)
 
 
 
